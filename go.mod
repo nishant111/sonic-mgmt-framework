@@ -5,7 +5,7 @@ require (
 	github.com/golang/glog v1.2.5
 	github.com/gorilla/mux v1.7.4
 	github.com/pkg/profile v1.7.0
-	golang.org/x/crypto v0.50.0
+	golang.org/x/crypto v0.57.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
 
@@ -35,9 +35,9 @@ require (
 	github.com/redis/go-redis/v9 v9.6.1 // indirect
 	go4.org/intern v0.0.0-20211027215823-ae77deb06f29 // indirect
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20230525183740-e7c30c78aeb2 // indirect
-	golang.org/x/net v0.53.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/text v0.39.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260414002931-afd174a4e478 // indirect
 	google.golang.org/grpc v1.82.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
@@ -47,7 +47,7 @@ require (
 
 replace github.com/Azure/sonic-mgmt-common => ../sonic-mgmt-common
 
-go 1.25.9
+go 1.26.0
 
 // Pin glog to the version that patches/glog.patch is written for.
 replace github.com/golang/glog => github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
